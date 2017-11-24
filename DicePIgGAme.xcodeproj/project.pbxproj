@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93D84C31FC5D7B700230168 /* ComputerAiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93D84C21FC5D7B700230168 /* ComputerAiArray.swift */; };
 		E9A1DC2E1FC3A42400A5617C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1DC2D1FC3A42400A5617C /* AppDelegate.swift */; };
 		E9A1DC301FC3A42400A5617C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1DC2F1FC3A42400A5617C /* ViewController.swift */; };
 		E9A1DC331FC3A42400A5617C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A1DC311FC3A42400A5617C /* Main.storyboard */; };
 		E9A1DC351FC3A42400A5617C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A1DC341FC3A42400A5617C /* Assets.xcassets */; };
 		E9A1DC381FC3A42400A5617C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A1DC361FC3A42400A5617C /* LaunchScreen.storyboard */; };
 		E9A1DC431FC3A42400A5617C /* DicePIgGAmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1DC421FC3A42400A5617C /* DicePIgGAmeTests.swift */; };
+		E9A1DC501FC3B51B00A5617C /* dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1DC4F1FC3B51B00A5617C /* dice.swift */; };
+		E9A1DC521FC3DA2C00A5617C /* DiceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1DC511FC3DA2C00A5617C /* DiceGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E93D84C21FC5D7B700230168 /* ComputerAiArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerAiArray.swift; sourceTree = "<group>"; };
 		E9A1DC2A1FC3A42400A5617C /* DicePIgGAme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicePIgGAme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A1DC2D1FC3A42400A5617C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A1DC2F1FC3A42400A5617C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		E9A1DC3E1FC3A42400A5617C /* DicePIgGAmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicePIgGAmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A1DC421FC3A42400A5617C /* DicePIgGAmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicePIgGAmeTests.swift; sourceTree = "<group>"; };
 		E9A1DC441FC3A42400A5617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A1DC4F1FC3B51B00A5617C /* dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice.swift; sourceTree = "<group>"; };
+		E9A1DC511FC3DA2C00A5617C /* DiceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,10 @@
 			children = (
 				E9A1DC2D1FC3A42400A5617C /* AppDelegate.swift */,
 				E9A1DC2F1FC3A42400A5617C /* ViewController.swift */,
+				E93D84C21FC5D7B700230168 /* ComputerAiArray.swift */,
+				E9A1DC511FC3DA2C00A5617C /* DiceGame.swift */,
 				E9A1DC311FC3A42400A5617C /* Main.storyboard */,
+				E9A1DC4F1FC3B51B00A5617C /* dice.swift */,
 				E9A1DC341FC3A42400A5617C /* Assets.xcassets */,
 				E9A1DC361FC3A42400A5617C /* LaunchScreen.storyboard */,
 				E9A1DC391FC3A42400A5617C /* Info.plist */,
@@ -199,7 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A1DC521FC3DA2C00A5617C /* DiceGame.swift in Sources */,
 				E9A1DC301FC3A42400A5617C /* ViewController.swift in Sources */,
+				E93D84C31FC5D7B700230168 /* ComputerAiArray.swift in Sources */,
+				E9A1DC501FC3B51B00A5617C /* dice.swift in Sources */,
 				E9A1DC2E1FC3A42400A5617C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
